@@ -55,6 +55,7 @@ class _splashState extends State<splash> {
             child: Image.asset(
               'assets/Icons/icon1.png',
               width: 500,
+              color: Colors.white,
               height: 500,
             ),
           )
