@@ -31,8 +31,9 @@ class _splashState extends State<splash> {
     login();
     Timer(
         const Duration(seconds: 4),
-        () => Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => const Home())));
+        () => Navigator.of(context).pushAndRemoveUntil(
+            MaterialPageRoute(builder: (context) => const Home()),
+            (route) => false));
   }
 
   @override
