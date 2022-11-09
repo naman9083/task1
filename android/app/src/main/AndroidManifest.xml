@@ -3,7 +3,7 @@
    <application
         android:label="PineTask"
         android:name="${applicationName}"
-        android:icon="@launcher/ic_launcher">
+        android:icon="@drawable/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"
